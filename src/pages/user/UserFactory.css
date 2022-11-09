@@ -1,0 +1,16 @@
+.FormItem {
+    margin-right: 40px;
+}
+
+fieldset {
+    background-color: #353842;
+    margin: 10px 80px 10px 80px;
+    padding-top: 20px;
+}
+
+fieldset > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 10px;
+}

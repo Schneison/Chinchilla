@@ -1,0 +1,47 @@
+
+tr:nth-child(even) {
+    background-color: #353842;
+}
+
+tr:has(td):not(.picked):hover {
+    background-color: #53535b;
+}
+
+/*
+":has(td)" needed so we can override "nth-child"
+ */
+.picked:has(td) {
+    background-color: #56576b;
+}
+
+button:disabled {
+    cursor: not-allowed;
+}
+
+input[type="submit"], input[type="reset"] {
+    margin: 10px;
+}
+
+button, input[type="submit"], input[type="reset"] {
+    font-size: 0.8em;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+table {
+    margin: 12px;
+}
+
+table, th, td {
+    border: 1px solid #868686;
+    border-collapse: collapse;
+}
+
+th{
+    padding: 7px 60px;
+}
+
+td {
+    text-align: left;
+    padding: 7px 14px;
+}

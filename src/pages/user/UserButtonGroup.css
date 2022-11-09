@@ -1,0 +1,14 @@
+.ButtonGroup {
+    padding: 8px 32px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #53535d;
+    border-radius: 4px;
+    margin: 24px 12px;
+    box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.24);
+}
+
+.InputSearchName {
+    font-size: 0.7em;
+    padding: 4px;
+}
